@@ -1,0 +1,41 @@
+
+p. intro:first-letter {
+    font-size: 200%;}
+p. intro:first-line {
+    font-width: bold;}
+
+
+
+h1,h2 {
+text-transform: uppercase;
+letter-spacing: 0.2em;}
+.credits {
+    font-width: bold;
+    word-spacing: lem;}
+
+
+
+
+p {
+    line-height: 1.4em;}
+
+
+
+
+h1 {
+    text-align: left;}
+p {
+    text-align: justify;}
+.credits {
+    text-align: right;}
+
+
+
+
+
+.credits {
+    text-decoration: underline;}
+a {
+    text-decoration: none;}
+
+

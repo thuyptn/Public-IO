@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+    <style>
+        * {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+        p>a {
+            color: green;
+        }
+        ul>li a {
+            background-color: grey;
+        }
+        ul>li>a{
+            font-size: 10px;
+        }
+        a:hover{
+            color: pink;
+        }
+        #top{
+            border: 1px solid;
+        }
+        .note{
+            color: black;
+        }
+        #top{
+            border: 1px solid;
+        }
+        .note{
+            color: black;
+        }
+
+    </style>
+
+</head>
+<body>
+<h1><a id="top">Kitchen Garden Calendar</a></h1>
+<p id="introduction">Here you can read our handy guide about what to do when.</p>
+<h2 class="note">Spring</h2>
+<ul>
+    <li> <a href="mulch.html">Spring mulch vegetable bed</a></li>
+    <li> <a href="potato.html">Plan out early potatoes</a></li>
+    <li> <a href="totato.html">Sow tomato seeds</a></li>
+    <li> <a href="beet.html">Sow beet seeds</a></li>
+    <li> <a href="zucchini.html">Sow zucchini seeds</a></li>
+    <li> <a href="rhubard.html">Deadhead rhubard flowers</a></li>
+    <div> a href="#">nested link</div></li>
+    <ul>
+        <p class="note introduction">This page was written by
+            <a href="mail to: jon@example.org">jon@example.org</a> for
+            <a href="http://www.wiley.com">Wiley</a>.
+
+        </p>
+    </ul>
+
+
+</ul>
+    
+</h1>
+
+
+</body>
+</html>
