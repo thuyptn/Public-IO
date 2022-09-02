@@ -1,0 +1,240 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: helvetica,Arial,sans-serif;
+    scroll-behavior: smooth;
+    font-family: helvetica, Arial, sans-serif;
+}
+/* Common */
+.clear{
+    clear: both;
+}
+.text-white{
+    color: #ffffff !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-full{
+    width: 100%;
+}
+.col-half{
+    width: 50%;
+}
+.col-third{
+    width: 33.33333%;
+}
+.mt-8{
+    margin-top: 8px !important;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
+
+/* Main */
+#main{
+
+}
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+}
+#nav,.subnav{
+    list-style-type: none ;
+
+}
+#nav {
+
+}
+#nav>li{
+    display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav>li>a{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+#nav>li:hover>a{
+    color: #000000;
+    background-color: #C8C8C8;
+}
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0.3);
+}
+#nav .subnav a{
+    color: #000000;
+    padding: 0px;
+    line-height: 38px;
+}
+#nav .subnav li:hover{
+    color: #000000;
+    background-color: #C8C8C8;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+#header .search-btn{
+    float: right;
+    padding: 0 21px;
+}
+#header .search-btn:hover{
+    background-color: #f44336;
+}
+#header .search-icon{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 46px;
+    cursor: pointer;
+}
+.image img{
+    height: 400px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content h3{
+    margin: 15px;
+}
+.sub{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.sub1{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    font-family: "Times New Roman";
+}
+
+.first{
+    margin-top: 20px;
+
+}
+.second{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.second ul li a{
+    text-decoration: none;
+}
+.third{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.third  li a{
+    text-decoration: none;
+}
+.second2{
+    text-align: center;
+}
+.center .bar{
+    display: inline-block;
+    width: auto;
+}
+.bar{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.bar .button{
+    white-space: normal;
+}
+.bar .bar-item{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+.button{
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: hidden;
+    color: inherit;
+    background-color: inherit;
+}
+.black{
+    color: #fff !important;
+    background-color: #000 !important;
+
+}
+hr{
+    border:0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.brand h3{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: green;
+
+}
+.brand p{
+    text-align: justify;
+    margin-left: 10px;
+}
+.brand img{
+    width: 100%;
+    height: auto;
+}
+.brand h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid brown;
+}
